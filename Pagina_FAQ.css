@@ -3,6 +3,28 @@ body {
     position: relative;
     height: 100vh;
 }
+.container-fluid.navbar {
+    background-color: #748A94;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.botao-tema{
+    position: absolute;
+    right: 0;
+    
+}
+.btn.class-botao-tema {
+    background-color: #ffffff;
+}
+
+
+
+
+
+
 footer {
     background-color: #748A94;
     position: absolute;
