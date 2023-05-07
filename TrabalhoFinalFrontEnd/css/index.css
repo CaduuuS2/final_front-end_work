@@ -1,0 +1,94 @@
+*{
+	margin:0px;
+	padding:0px
+	
+}
+
+@font-face {
+    font-family: "ModerneFraktur";
+    src: url("/TrabalhoFinalFrontEnd/ModerneFraktur.ttf");
+  }
+
+@font-face {
+    font-family: "PlayfairDisplay-VariableFont_wght";
+    src: url("/TrabalhoFinalFrontEnd/PlayfairDisplay-VariableFont_wght.ttf");
+  }
+  
+
+.cabecalho{
+    background-color: #294669;
+    
+}
+
+h5{
+    font-family: "ModerneFraktur";
+
+}
+
+body {
+    font-family: "PlayfairDisplay-VariableFont_wght";
+    background-color: #F4EFDF;
+    position: relative;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #748A94;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+.coluna.hr-linha {
+ padding-right: 10%;
+ padding-left: 10%;
+}
+.hr-linha {
+    margin: 0;
+}
+.container-fluid.footer-sup{
+    background-color: #748A94;
+    height: 60%;
+}
+.row.footer-sup {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* .col-sw-2.footer-sup {
+
+}  */
+.paragf.footer-sup {
+    margin: 0;
+    text-align: center;
+}
+
+.container-fluid.footer-inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+
+.coluna.footer-inf {
+    padding: 10px;
+    height: 100%;
+    width: auto;
+    
+
+}
+
+.imagens.footer-inf {
+    height: 100%;
+    width: 40px;
+} 
+
