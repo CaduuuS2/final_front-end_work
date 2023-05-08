@@ -7,7 +7,7 @@ Esse trabalho foi projeto para a matéria de FrontEnd Essencial, da Residência 
 ### Requisitos mínimos:
 1-Página principal:
 
-Na página principal, foi adicionado o tema de turísmo, intitulado como "Turísmo Imperial".
+Na página principal, foi adicionado o tema de turísmo, intitulado como "Turísmo Imperial", onde pode-se ver algumas fotos dos pontos turísticos. Os botões que encaminham para as redes sociais do site também foram inseridos.
 
 2-Página detalhes:
 
@@ -15,7 +15,7 @@ Na página detalhes, foi adicionado as fotos dos pontos turísticos escolhidos p
 
 3-Página sobre:
 
-na página sobre, foi adicionado um carrossel com a foto e o nome de todos os integrantes do  grupo e o professor da turma.
+Na página sobre, foi adicionado um carrossel com a foto, nome, informações, linkedin e github, de todos os integrantes do  grupo e o professor da turma.
 
 4-Página fale conosco:
 
