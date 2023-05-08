@@ -9,7 +9,7 @@
     src: url("./Fontes/PlayFair/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
-/* corpo */
+/* Corpo */
 body {
     background-color: #F4EFDF;
     min-height: 100vh;
@@ -35,32 +35,6 @@ footer {
     background-color: #748A94;
     height: 180px;
     width: 100%;
-}
-
-/* navbar */
-.container-fluid.navbar {
-    background-color: #748A94;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-.col-navbar {
-    width: auto;
-}
-
-.link-navbar {
-    text-decoration: none;
-}
-
-.paragf-navbar {
-    color: #000000;
-    margin: 15px;
-    text-align: center;
-    font-family: PlayfairDisplay;
-    font-size: larger;
 }
 
 /* Logo */
@@ -186,17 +160,28 @@ footer {
     width: 40px;
 }
 
-/* accordion formulario */
-.row.g-3.needs-validation {
-    margin: 0;
+/* navbar */
+.container-fluid.navbar {
+    background-color: #748A94;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
-/* accordion quest */
-.accordion-item {
-    background-color: #e3e3e3;
+.col-navbar {
+    width: auto;
+}
+
+.link-navbar {
+    text-decoration: none;
+}
+
+.paragf-navbar {
+    color: #000000;
     margin: 15px;
-}
-
-.accordion-button.collapsed {
-    background-color: #e3e3e3;
+    text-align: center;
+    font-family: PlayfairDisplay;
+    font-size: larger;
 }

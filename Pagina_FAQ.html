@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -12,52 +12,58 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="Pagina_FAQ.css">
   <script src="./Pagina_FAQ.js" defer></script>
-  <title>Página FAQ</title>
+  <title>Fale Conosco</title>
 </head>
 
 <body>
-
-
-
   <header>
-    <div class="container-fluid " style="background-color: #294669;">
-      <div class="row justify-content-center ">
-        <div class="col-2 " style="width: 218px; height: 100px;">
-          <a href="www.google.com"><img src="./TrabalhoFinalFrontEnd/TurismoImperialnew.png" height="100"
-              width="180"></a>
+    <!-- Logo -->
+    <div class="container-fluid header-bloc">
+      <div class="row header-bloc">
+        <div class="col-5 header-bloc">
+          <h1 class="logo-tx" id="logo-tx-pt1">Turismo</h1>
         </div>
-
+        <div class="col-2 header-bloc logo">
+          <a href="www.google.com"><img class="img-logo" src="./Imagens/TurismoImperialnew.png"></a>
+        </div>
+        <div class="col-5 header-bloc">
+          <h1 class="logo-tx" id="logo-tx-pt2">Imperial</h1>
+        </div>
       </div>
     </div>
-    <!-- As a link -->
-    <nav class="navbar navbar-light bg-light border border-warning">
+    <!-- Navbar -->
+    <nav class="navbar">
       <div class="container-fluid navbar">
-        <div class="col-navbar justify-content-center">
-          <a class="navbar-brand" href="#">Home</a>
-
-          <a class="navbar-brand" href="#">sobre</a>
-
-          <a class="navbar-brand" href="#">Fale Conosco</a>
+        <div class="col-navbar">
+          <a class="link-navbar" href="#">
+            <h2 class="paragf-navbar">Home</h2>
+          </a>
         </div>
-        <div class="botao-tema justify-content-end" id="divi-botao-tema">
-          <button type="button" class="btn class-botao-tema" id="botao-tema"><svg xmlns="http://www.w3.org/2000/svg"
-              width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" id="sun-tema" viewBox="0 0 16 16">
+        <div class="col-navbar">
+          <a class="link-navbar" href="#">
+            <h2 class="paragf-navbar">Sobre Nós</h2>
+          </a>
+        </div>
+        <div class="col-navbar">
+          <a class="link-navbar" href="#">
+            <h2 class="paragf-navbar">Fale Conosco</h2>
+          </a>
+        </div>
+        <!-- Botao tema -->
+        <div class="botao-tema" id="divi-botao-tema">
+          <button type="button" class="class-botao-tema" id="botao-tema"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" id="sun-tema"
+              viewBox="0 0 16 16">
               <path
                 d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
             </svg></button>
         </div>
       </div>
     </nav>
-
   </header>
-
-
-
   <main>
-
-
-
-    <div class="accordion" id="accordion">
+    <!-- accordion -->
+    <div class="accordion accordion-flush" id="accordion">
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -67,7 +73,7 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
           <div class="accordion-body">
-            R: Quem disse que isso é problema meu?
+            R: ...
           </div>
         </div>
       </div>
@@ -80,7 +86,7 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
           <div class="accordion-body">
-            R: Quem disse que isso é problema meu?
+            R: ...
           </div>
         </div>
       </div>
@@ -93,10 +99,11 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
           <div class="accordion-body">
-            R: Quem disse que isso é problema meu?
+            R: ...
           </div>
         </div>
       </div>
+      <!-- Formulario dentro de accordion -->
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -107,29 +114,11 @@
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
           <div class="accordion-body">
             <form class="row g-3 needs-validation" novalidate>
-              <div class="col-md-3">
+              <div class="col-md-9">
                 <label for="validationCustom01" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="validationCustom01" required>
                 <div class="invalid-feedback">
                   Por favor, insira um nome válido!
-                </div>
-              </div>
-              <div class="col-md-3">
-                <label for="validationCustom02" class="form-label">Sobrenome</label>
-                <input type="text" class="form-control" id="validationCustom02" required>
-                <div class="invalid-feedback">
-                  Por favor, insira um sobrenome válido!
-                </div>
-              </div>
-              <div class="col-md-3">
-                <label for="validationCustomUsername" class="form-label">Usuário</label>
-                <div class="input-group has-validation">
-                  <span class="input-group-text" id="inputGroupPrepend">@</span>
-                  <input type="text" class="form-control" id="validationCustomUsername"
-                    aria-describedby="inputGroupPrepend" required>
-                  <div class="invalid-feedback">
-                    Por favor, insira um usuário válido!
-                  </div>
                 </div>
               </div>
               <div class="col-md-3">
@@ -157,7 +146,8 @@
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                   <label class="form-check-label" for="invalidCheck">
-                    <a href="https://youtu.be/NNIYob8nC7o">Concorde com os termos e condições</a>
+                    <a href="file:///C:/WS_VisualStudioCode/Desafio/desafio_posiciona.html">Concorde com os termos e
+                      condições</a>
                   </label>
                   <div class="invalid-feedback">
                     Você deve concordar antes de enviar.
@@ -171,39 +161,52 @@
           </div>
         </div>
       </div>
-
-
-
-
   </main>
-
-
-
   <footer>
+    <!-- Rodape links texto -->
     <div class="container-fluid footer-sup">
       <div class="row footer-sup">
         <div class="col-md-2 footer-sup">
-          <p class="paragf footer-sup">oi</p>
+          <h2 class="paragf footer-sup">Pontos Turísticos</h2>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Palácio de Cristal</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Catedral São Pedro de Alcântara</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Museu Imperial</a>
         </div>
         <div class="col-md-2 footer-sup">
-          <p class="paragf footer-sup">oi</p>
+          <h2 class="paragf footer-sup">Membros</h2>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Bianca</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Carlos Eduardo</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Franklin</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Maria Clara</a>
         </div>
         <div class="col-md-2 footer-sup">
-          <p class="paragf footer-sup">oi</p>
+          <h2 class="paragf footer-sup">Website</h2>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Home</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Fale Conosco</a>
+          <br>
+          <a class="link-footer" href="https://www.instagram.com/soupetropolis/">Sobre</a>
         </div>
       </div>
-
     </div>
     <div class="coluna hr-linha">
       <hr class="hr-linha">
     </div>
-
+    <!-- Rodape links icones -->
     <div class="container-fluid footer-inf">
-      <div class="coluna footer-inf"><a href="https://www.instagram.com/soupetropolis/"><img class="imagens footer-inf"
-            src="./TrabalhoFinalFrontEnd/instagram.png"></a>
-        <a href="www.google.com"><img class="imagens footer-inf" src="./TrabalhoFinalFrontEnd/facebook.png"></a>
-        <a href="www.google.com"><img class="imagens footer-inf" src="./TrabalhoFinalFrontEnd/whatsApp.png"></a>
-        <a href="www.google.com"><img class="imagens footer-inf" src="./TrabalhoFinalFrontEnd/twitter.png"></a>
+      <div class="coluna footer-inf">
+        <a href="www.google.com"><img class="imagens footer-inf" src="./Imagens/1.png"></a>
+        <a href="https://www.instagram.com/soupetropolis/"><img class="imagens footer-inf"
+            src="./Imagens/instagram.png"></a>
+        <a href="www.google.com"><img class="imagens footer-inf" src="./Imagens/facebook.png"></a>
+        <a href="www.google.com"><img class="imagens footer-inf" src="./Imagens/twitter.png"></a>
+        <a href="www.google.com"><img class="imagens footer-inf" src="./Imagens/whatsApp.png"></a>
+        <a href="www.google.com"><img class="imagens footer-inf" src="./Imagens/2.png"></a>
       </div>
     </div>
   </footer>
