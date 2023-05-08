@@ -18,6 +18,7 @@ Na página detalhes, foi adicionado as fotos dos pontos turísticos escolhidos p
 Na página sobre, foi adicionado um carrossel com a foto, nome, informações, linkedin e github, de todos os integrantes do  grupo e o professor da turma.
 
 4-Página fale conosco:
+
 Na página fale conosco, foram adicionados um formulário com inputs, um botão que te direciona ao suporte e verificação de campo vazio.
 
 
