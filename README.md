@@ -18,14 +18,16 @@ Na página detalhes, foi adicionado as fotos dos pontos turísticos escolhidos p
 Na página sobre, foi adicionado um carrossel com a foto, nome, informações, linkedin e github, de todos os integrantes do  grupo e o professor da turma.
 
 4-Página fale conosco:
+Na página fale conosco, foram adicionados um formulário com inputs, um botão que te direciona ao suporte e verificação de campo vazio.
+
 
  
 
 #### Atributos
 
 ### Bônus 
-- 
-- 
+No site, foi incluído uma API
+
 
 
 ## Layout
@@ -39,7 +41,7 @@ Na página sobre, foi adicionado um carrossel com a foto, nome, informações, l
 
 * [Figma](https://www.figma.com/file/NKKVmJD2GznwEOsWviB0e2/Trabalho-Front?type=design&node-id=1-2&t=u1V8ddk72TOh13ZG-0)
 * [Bootstrap](https://getbootstrap.com/)
-* Visual Code Studio
+* [Visual Code Studio](https://code.visualstudio.com/)
 
  
 ## Colaboradores
