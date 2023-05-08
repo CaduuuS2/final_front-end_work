@@ -12,6 +12,8 @@
   
   <link rel="stylesheet" href="/TrabalhoFinalFrontEnd/css/index.css">
 
+  <script src="/TrabalhoFinalFrontEnd/js/darktheme.js" defer></script>
+
 
 </head>
 
@@ -21,7 +23,7 @@
       <div class="cabecalho">
         <div class="row justify-content-center " >
           <div  class="col-2 p-2 " style="width: 210px; height: 115px;">
-            <a href="www.google.com"><img src="/TrabalhoFinalFrontEnd/TurismoImperialnew.png" height="100" width="180"></a>
+            <a href="www.google.com"><img src="/TrabalhoFinalFrontEnd/img/TurismoImperialnew.png" height="100" width="180"></a>
                       
           </div>
                   
@@ -29,7 +31,25 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light border border-warning">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="#">
+
+        <div class="botao-tema justify-content-start" id="divi-botao-tema">
+          <button type="button" class="btn class-botao-tema" id="botao-tema"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill" id="sun-tema" viewBox="0 0 16 16">
+              <path
+                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+            </svg></button>
+        </div>
+
+
+
+
+      </a>
+
+      
+
+
+
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation" style="cursor:pointer">
         <span class="navbar-toggler-icon"></span>
@@ -52,6 +72,11 @@
           </li>
         </ul>
       </div>
+
+      
+    
+    
+    
     </nav>
     
     
@@ -75,24 +100,24 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/TrabalhoFinalFrontEnd/catedral.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Catedral São Pedro De alcântara</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+              <a href="www.google.com"><img src="/TrabalhoFinalFrontEnd/img/casteloitaipava1280x720.png"  class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block" >
+                <h1>Castelo De Itaipava</h1>
+                <!-- <p>Some representative placeholder content for the first slide.</p> -->
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/TrabalhoFinalFrontEnd/Palácio_de_Cristal_(Petrópolis).jpg" class="d-block w-100" alt="..." >
+              <a href="www.google.com"><img src="/TrabalhoFinalFrontEnd/img/catedral1280x720.png" class="d-block w-100" alt="..." >
               <div class="carousel-caption d-none d-md-block">
-                <h5>Palácio De Cristal_</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h1>Catedral São Pedro De alcântara</h1>
+                <!-- <p>Some representative placeholder content for the second slide.</p> -->
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/TrabalhoFinalFrontEnd/museu imperial.jpg" class="d-block w-100" alt="...">
+              <img src="/TrabalhoFinalFrontEnd/img/museu1280x720.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Museu Imperial</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h1>Museu Imperial</h1>
+                <!-- <p>Some representative placeholder content for the third slide.</p> -->
               </div>
             </div>
           </div>
@@ -114,37 +139,58 @@
         <div class="container-fluid">
 
           <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-4 p-4">
-                <div class="card">                  
-                  <img src="/TrabalhoFinalFrontEnd/catedral.jpg" class="card-img-top" alt="...">
+            <div class="row" >
+              <div class="col-12 col-sm-6 col-md-4 p-4 col-lg-4">
+                <div class="card  border border-warning" style="background-image: url(/TrabalhoFinalFrontEnd/img/clima.webp);">                
+                  <h4> Clima Petrópolis</h4>
+                  <div id="temperatura"></div>
+                  <div id="descricao"></div>
+                  <img id="icone" src="" alt="Weather Icon">
+                  <div id="velVento"></div>
+                  <div id="umidade"></div>
+                </div>  
+                
+              </div>
+              
+              <div class="col-12 col-sm-6 col-md-4 col-lg-4 p-4">
+                <div class="card border border-warning">                  
+                  <img src="/TrabalhoFinalFrontEnd/img/petropolisold.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Catedral São Pedro de Alcantara</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+                    <h4 class="card-title">Historia de Petrópolis</h4>
+                    <p class="card-text">O povoado surgiu em 1845, subordinado a São José do Rio Preto e um ano depois, foi criada a Paróquia de São Pedro de Alcântara, vinculada à Vila da Estrela.</p>
+                    <a href="#" class="btn btn-primary">Quero conhecer</a>
                   </div>
                 </div>
               </div>
               
-              <div class="col-12 col-sm-4 p-4">
-                <div class="card">                  
-                  <img src="/TrabalhoFinalFrontEnd/Palácio_de_Cristal_(Petrópolis).jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Palácio de Cristal_</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
+              <div class=" col-12 col-sm-12 col-md-4 col-lg-4 p-4">
+                <div class="card border border-warning"> 
+
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        
+                        <img src="/TrabalhoFinalFrontEnd/img/anuncioPousadaCatedral1.png" height="265px" class="d-block w-100" alt="...">
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img src="/TrabalhoFinalFrontEnd/img/anuncioPousadaCatedral2.png" height="265px" class="d-block w-100" alt="...">
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <img src="/TrabalhoFinalFrontEnd/img/anuncioPousadaCatedral3.png" height="265px" class="d-block w-100" alt="...">
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="/TrabalhoFinalFrontEnd/img/anuncioPousadaCatedral4.png" height="265px" class="d-block w-100" alt="...">
+                      </div>
+                    
+                    
+                    
+                    </div>
                   </div>
-                </div>
-              </div>
-              
-              <div class=" col-12 col-sm-4 p-4">
-                <div class="card"> 
-                  <img src="/TrabalhoFinalFrontEnd/museu imperial.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Museu Imperial</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver mais</a>
-                  </div>
+                 
+                  
                 </div>
               </div>
             </div>
@@ -153,19 +199,8 @@
        
         </div>
     
-        
-
-
-
-
-
-
     </main>
-
-    
-    
-    
-    
+   
     <footer>
 
       <div class="container-fluid footer-sup">
@@ -188,10 +223,10 @@
   
       <div class="container-fluid footer-inf">
         <div class="coluna footer-inf"><a href="https://www.instagram.com/soupetropolis/"><img class="imagens footer-inf"
-              src="/TrabalhoFinalFrontEnd/instagram.png"></a>
-          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/facebook.png"></a>
-          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/whatsApp.png"></a>
-          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/twitter.png"></a>
+              src="/TrabalhoFinalFrontEnd/img/instagram.png"></a>
+          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/img/facebook.png"></a>
+          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/img/whatsApp.png"></a>
+          <a href="www.google.com"><img class="imagens footer-inf" src="/TrabalhoFinalFrontEnd/img/twitter.png"></a>
         </div>
       </div>
 
@@ -201,7 +236,7 @@
 
     </footer>
   
-    
+    <script src="/TrabalhoFinalFrontEnd/js/clima.js"></script>
 
   </body>
 

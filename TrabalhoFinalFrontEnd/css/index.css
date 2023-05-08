@@ -6,24 +6,36 @@
 
 @font-face {
     font-family: "ModerneFraktur";
-    src: url("/TrabalhoFinalFrontEnd/ModerneFraktur.ttf");
+    src: url("/TrabalhoFinalFrontEnd/fontes/ModerneFraktur.ttf");
   }
 
 @font-face {
     font-family: "PlayfairDisplay-VariableFont_wght";
-    src: url("/TrabalhoFinalFrontEnd/PlayfairDisplay-VariableFont_wght.ttf");
+    src: url("/TrabalhoFinalFrontEnd/fontes/PlayfairDisplay-VariableFont_wght.ttf");
   }
   
 
 .cabecalho{
     background-color: #294669;
     
+    
 }
 
-h5{
+h4{
     font-family: "ModerneFraktur";
+    align-self: center;
 
 }
+
+h1{
+    font-family: "ModerneFraktur";
+    
+
+}
+
+
+
+
 
 body {
     font-family: "PlayfairDisplay-VariableFont_wght";
@@ -38,6 +50,40 @@ body {
 
 
 
+#temperatura {
+    align-self: center;
+    font-size: 42px;
+    font-weight: bold;
+    
+    
+    
+        
+  }
+  
+#descricao {
+    font-size: 24px;
+    
+   
+    
+  }
+  
+#icone {
+    align-self: center;
+    width: 80px;
+    height: 80px;
+    
+    
+    
+  }
+  
+#velVento, #umidade {
+    align-self: center;
+    font-size: 30px;
+    
+  }
+
+
+  
 
 
 
