@@ -45,7 +45,7 @@ Página fale conosco:
 ## Colaboradores
 ### Alunos
 * [Bianca Gall de Freitas](https://www.linkedin.com/in/bianca-gall-de-freitas-349b0175/)
-* [CaduuuS2]]()
+* [CaduuuS2]()
 * []()
 * [Maria Clara Melo]() 
 
